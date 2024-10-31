@@ -41,7 +41,8 @@ function getEntries(options) {
 }
 
 function getBlockStylesheetName(filePath) {
-	const pathParts = filePath.split(path.sep);
+	// const pathParts = filePath.split(path.sep);
+	const pathParts = filePath.split('/');
 	if (pathParts.length) {
 		const fileName = pathParts[pathParts.length - 1];
 		pathParts[pathParts.length - 1] = path.parse(fileName).name;
