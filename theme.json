@@ -13,22 +13,27 @@
         {
           "name": "Background",
           "slug": "background",
-          "color": "#FEFEFE"
+          "color": "#FFFFFF"
         },
         {
           "name": "Foreground",
           "slug": "foreground",
-          "color": "#181A1F"
+          "color": "#401F1F"
         },
         {
           "name": "Primary",
           "slug": "primary",
-          "color": "#3858e9"
+          "color": "#FFA644"
         },
         {
           "name": "Secondary",
           "slug": "secondary",
-          "color": "#7b90ff"
+          "color": "#FFA644"
+        },
+        {
+          "name": "Headers",
+          "slug": "headers",
+          "color": "#000000"
         }
       ]
     },
@@ -101,22 +106,22 @@
                 "file:./fonts/EBGaramond-Bold.ttf"
               ]
             },
-			{
-			  "fontFamily": "EBGaramond",
+			      {
+			        "fontFamily": "EBGaramond",
               "fontStyle": "italic",
               "fontWeight": "400",
               "src": [
                 "file:./fonts/EBGaramond-Italic.ttf"
               ]
             },
-			{
+			      {
               "fontFamily": "EBGaramond",
               "fontStyle": "italic",
               "fontWeight": "700",
               "src": [
                 "file:./fonts/EBGaramond-BoldItalic.ttf"
               ]
-			}
+			      }
           ],
           "fontFamily": "\"EBGaramond\", sans-serif",
           "name": "EB Garamond",
