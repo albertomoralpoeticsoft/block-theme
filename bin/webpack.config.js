@@ -13,6 +13,7 @@ const styleOutputFolder = "css";
  */
 var config = {
 	...defaultConfig,
+  stats: 'minimal',
 	entry: {
 		...defaultConfig.entry(),
 		...getEntries({ root: "src/js", include: "*.js", outputFolder: "js" }),

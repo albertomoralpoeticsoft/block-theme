@@ -33,17 +33,18 @@ const registerBlockStyles = {
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/
  */
 const registerBlockVariations = {
-	// "core/columns": {
-	// 	name: "three-columns-wide-left",
-	// 	title: "50 / 25 / 25",
-	// 	description: "Three columns; wide left column",
-	// 	innerBlocks: [
-	// 		["core/column", { width: "50%" }],
-	// 		["core/column", { width: "25%" }],
-	// 		["core/column", { width: "25%" }],
-	// 	],
-	// 	scope: ["block"],
-	// },
+	"core/columns": {
+		name: "variation-test",
+		title: "Variation test",
+		description: "Three columns; wide left column",
+    icon: "wordpress",
+		innerBlocks: [
+			["core/column", { width: "50%" }],
+			["core/column", { width: "25%" }],
+			["core/column", { width: "25%" }],
+		],
+		scope: ["block"],
+	},
 };
 
 /**
